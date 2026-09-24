@@ -1,0 +1,23 @@
+Scrcpy stream tín hiệu video H.264/H.265 trực tiếp từ subsystem đồ họa của Android với độ trễ chỉ khoảng 30–70ms, đồng thời truyền ngược tín hiệu chuột và bàn phím máy tính.
+
+
+-- Download:
+https://tailscale.com/
+https://github.com/Genymobile/scrcpy/releases/latest
+
+cd D:\app_dow\scrcpy-win64-v4.1
+
+-- Setup:
+.\adb devices
+
+.\adb tcpip 5555
+
+-- Check:
+.\adb devices
+
+-- Main action
+.\adb connect 192.168.100.98:5555
+
+.\adb connect 100.82.51.71:5555
+
+.\scrcpy -s 100.82.51.71:5555 --stay-awake --turn-screen-off

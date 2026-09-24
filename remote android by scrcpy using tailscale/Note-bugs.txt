@@ -1,0 +1,27 @@
+1.
+scrcpy 4.1 <https://github.com/Genymobile/scrcpy>
+ERROR: Multiple (2) ADB devices:
+ERROR:     -->   (usb)  d9b6e79c                        device  CPH2473
+ERROR:     --> (tcpip)  192.168.100.98:5555             device  CPH2473
+ERROR: Select a device via -s (--serial), -d (--select-usb) or -e (--select-tcpip)
+ERROR: Server connection failed
+
+
+Lỗi này xảy ra vì hiện tại máy tính đang nhận diện cùng một chiếc OPPO A77s qua cả 2 đường:
+Đường cáp USB: d9b6e79c
+Đường mạng không dây TCP/IP: 192.168.100.98:5555
+
+--> Rút dây cắm ra
+
+2.
+ERROR: Could not open audio device: No default audio device available
+ERROR: Demuxer error
+
+scrcpy mặc định tự động stream cả âm thanh từ Android sang máy tính. Lỗi này bắt nguồn từ hệ thống âm thanh trên máy tính của bạn (phía Client), không phải do điện thoại:
+Windows không tìm thấy bất kỳ thiết bị xuất âm thanh mặc định nào đang hoạt động (chưa cắm tai nghe/loa, driver âm thanh bị tắt, hoặc đang dùng màn hình không có loa).
+Khi tiến trình scrcpy trên máy tính không thể mở thiết bị âm thanh để phát, bộ giải mã luồng (Demuxer) bị đổ vỡ (crash) và buộc phải ngắt kết nối.
+
+--> Cách 1: Tắt stream âm thanh bằng cờ --no-audio
+.\scrcpy -s 100.82.51.71:5555 --stay-awake --turn-screen-off --no-audio
+
+--> Cách 2: Check loa laptop
