@@ -2,61 +2,61 @@
 
 ## Identity
 
-- Tên đề tài: [EDIT]
-- Loại tài liệu: [đồ án / báo cáo / paper / luận văn]
-- Chương/section đang viết: [EDIT]
-- Độc giả: [giảng viên / hội đồng / kỹ sư / researcher / mixed]
-- Mục tiêu section: [EDIT]
+- Project title: [EDIT]
+- Document type: [Capstone / Technical report / Thesis / Paper]
+- Current section/chapter: [EDIT]
+- Target audience: [Faculty reviewers / Defense committee / Engineers / Researchers / General technical]
+- Section objective: [EDIT]
 
 ## Scope
 
-- In scope:
-- Out of scope:
-- Environment:
-- Version:
+- In-scope:
+- Out-of-scope:
+- Execution environment:
+- System versions:
 - Dataset:
-- Hardware:
-- Software:
+- Hardware specifications:
+- Software & dependencies:
 - Network topology:
 
-## Real evidence available
+## Verified Empirical Evidence Available
 
 - Logs:
-- Code:
-- Screenshots:
-- Measurements:
-- Experiment results:
-- Source documents:
+- Source code / scripts:
+- Screenshots / capture dumps:
+- Direct measurements:
+- Experimental benchmark results:
+- Primary reference documents:
 
-## Claims that are already established
+## Established & Accepted Claims
 
-1.
-2.
-3.
+1. 
+2. 
+3. 
 
-## Claims that are still uncertain
+## Uncertain / Unverified Claims
 
-1.
-2.
-3.
+1. 
+2. 
+3. 
 
-## Constraints
+## Technical & Formal Constraints
 
-- Không được:
-- Phải có:
+- Must NOT include / claim:
+- Mandatory requirements:
 - Citation style:
-- Word/page target:
-- Figure/table requirements:
-- University/template requirements:
+- Word / page target:
+- Figure / table requirements:
+- Institutional formatting criteria:
 
-## Important terminology
+## Project Terminology Register
 
-| Term | Preferred form | Meaning in this project |
+| Term | Preferred Form | Meaning in this Project |
 |---|---|---|
 | | | |
 
-## Known limitations
+## Known Limitations
 
-1.
-2.
-3.
+1. 
+2. 
+3. 

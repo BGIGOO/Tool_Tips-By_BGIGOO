@@ -1,23 +1,23 @@
-# WORKFLOW 03 — OUTLINE
+# WORKFLOW 03 — ANALYTICAL OUTLINE
 
-Mỗi section cần có:
+Every section in the outline must define:
 
 ## Purpose
-Section này tồn tại để làm gì?
+What technical objective does this section achieve?
 
-## Input
-Dữ liệu nào sẽ dùng?
+## Inputs
+What raw data, logs, configurations, or references will be incorporated?
 
 ## Claims
-Claims nào cần chứng minh?
+What propositions must be demonstrated or proven?
 
-## Evidence
-Nguồn/đo/log nào hỗ trợ?
+## Supporting Evidence
+Which measurements, benchmarks, or authoritative citations substantiate each claim?
 
-## Logic
-Evidence → reasoning → conclusion.
+## Reasoning Flow
+`Evidence → Technical Reasoning → Deductive Conclusion`
 
-## Limitation
-Có giới hạn nào cần giữ?
+## Constraints & Limitations
+What boundary conditions, assumptions, or scope limits must be preserved?
 
-Không viết outline kiểu chỉ liệt kê tiêu đề. Mỗi tiêu đề phải có chức năng nghiên cứu.
+Rule: Never create an outline that merely enumerates bulleted headings. Every heading must be paired with its analytical function and supporting evidence.

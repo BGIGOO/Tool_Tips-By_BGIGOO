@@ -1,5 +1,5 @@
 system:
-  language: vi
+  interaction_language: auto        # Responds in the user's conversational language (e.g., Vietnamese)
   default_mode: discovery
   require_context_gate: true
   max_blocking_questions: 7
@@ -18,8 +18,8 @@ evidence:
   require_measurement_conditions: true
   permit_assumptions: true
   assumption_label: "[ASSUMPTION]"
-  verification_label: "[CẦN KIỂM CHỨNG]"
+  verification_label: "[NEEDS_VERIFICATION]"
 
 document:
   citation_style: IEEE
-  language: Vietnamese
+  target_language: user_specified   # Language for generated reports (e.g., Vietnamese, English)

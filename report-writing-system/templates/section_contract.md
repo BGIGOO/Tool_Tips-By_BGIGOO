@@ -1,14 +1,16 @@
 # SECTION CONTRACT
 
-- Section:
-- Purpose:
-- Target reader:
-- Inputs:
-- Required evidence:
-- Main claim:
-- Secondary claims:
-- Method/logic:
-- Expected output:
-- Must NOT claim:
-- Citation requirements:
-- Figures/tables:
+Pre-drafting agreement defining the boundary conditions, evidence requirements, and forbidden claims for a specific section.
+
+- **Section / Chapter**:
+- **Purpose**:
+- **Target Reader**:
+- **Inputs & Data Sources**:
+- **Required Evidence**:
+- **Primary Claim**:
+- **Secondary Claims**:
+- **Logical Flow**:
+- **Expected Output & Length**:
+- **Must NOT Claim**:
+- **Citation Requirements**:
+- **Figures / Tables**:

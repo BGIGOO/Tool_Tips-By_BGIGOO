@@ -1,7 +1,7 @@
 # DECISION LOG
 
-Mục này ghi lại các quyết định viết quan trọng để những lần sửa sau không tự đảo ngược reasoning.
+Records critical technical and architectural writing decisions to ensure future revision passes do not inadvertently invert reasoning.
 
-| Date | Decision | Reason | Evidence | Affected Sections |
+| Date | Decision | Technical Rationale | Supporting Evidence | Affected Sections |
 |---|---|---|---|---|
 | | | | | |

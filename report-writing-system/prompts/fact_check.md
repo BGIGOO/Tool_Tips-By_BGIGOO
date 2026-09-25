@@ -1,10 +1,12 @@
-# FACT CHECK
+# FACT CHECK PROMPT
 
-Kiểm tra đoạn sau:
+Evaluate the factual integrity of the following excerpt:
 
 [PASTE TEXT]
 
-Tạo bảng:
-| Claim | Evidence present? | Technical risk | Required verification | Proposed wording |
+Generate an audit table:
+| Claim | Evidence Present? | Technical Risk | Required Verification | Proposed Wording |
+|---|---|---|---|---|
+| | | | | |
 
-Chỉ đề xuất wording mới khi wording hiện tại mạnh hơn evidence.
+Rule: Only suggest revised wording when the current claim is stronger than the supporting evidence.

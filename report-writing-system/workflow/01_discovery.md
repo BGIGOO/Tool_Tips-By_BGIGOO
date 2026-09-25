@@ -1,24 +1,25 @@
 # WORKFLOW 01 — DISCOVERY
 
-## Output
+## Output Format
 
-### Context status
-- SUFFICIENT / INSUFFICIENT
+### Context Status
+- `SUFFICIENT` / `INSUFFICIENT`
 
-### What I already know
-- ...
+### What I Already Know
+- Confirmed facts, architecture, test setup, scope parameters.
 
-### Blocking questions
-1. ...
+### Blocking Questions (Max 7)
+1. Critical parameter or data gap that prevents drafting.
 2. ...
 
-### Optional questions
-1. ...
+### Optional Questions
+1. Non-essential clarification that refines tone or depth.
 2. ...
 
 ## Rules
 
-- Không hỏi lại dữ liệu đã có.
-- Không hỏi câu hỏi chung chung như "Bạn muốn viết thế nào?" nếu có thể suy ra từ context.
-- Câu hỏi phải giúp thay đổi nội dung thật sự.
-- Nếu thiếu dữ liệu nhưng có thể viết phần không phụ thuộc dữ liệu đó, nêu rõ phần nào có thể viết.
+- Communicate with the user in their language (e.g., Vietnamese).
+- Never re-ask for data already documented in the context files.
+- Avoid vague prompts like *"How would you like this written?"* when intent can be deduced from context.
+- Every question must directly determine a technical choice, number, or claim boundary.
+- If data is missing for one sub-section but another is independent, clearly specify which sub-section can proceed.

@@ -1,36 +1,36 @@
 # PROJECT BRIEF
 
 ## Problem
-Vấn đề nghiên cứu/thực hành là gì?
+What is the core technical or research problem being investigated?
 
-## Research question
-Câu hỏi cần trả lời?
+## Research Question
+What specific research question(s) does this project aim to answer?
 
 ## Objective
-Mục tiêu cụ thể?
+What are the concrete technical objectives?
 
-## Hypothesis / expectation
-Có giả thuyết hoặc kỳ vọng nào không?
+## Hypothesis / Expectations
+What is the preliminary technical hypothesis or expected outcome?
 
-## Method
-Phương pháp?
+## Methodology
+What technical methodology, pipeline, or architecture is used?
 
-## Environment
-Thiết bị / phần mềm / dataset / topology / version?
+## Environment & Setup
+Hardware specifications, software versions, test datasets, and network topology:
 
 ## Variables
-Biến độc lập:
-Biến phụ thuộc:
-Biến kiểm soát:
+- Independent variables:
+- Dependent variables:
+- Controlled variables:
 
-## Experiment
-Thiết kế thử nghiệm?
+## Experimental Design
+How are test scenarios, benchmarks, or validation procedures structured?
 
-## Results
-Kết quả thật đã thu được?
+## Empirical Results
+What concrete, verified measurements or observations were collected?
 
-## Limitations
-Giới hạn?
+## Limitations & Constraints
+What are the known experimental limitations, constraints, and edge cases?
 
-## Contribution
-Đóng góp thực tế, trong phạm vi đề tài?
+## Practical Contributions
+What are the actual technical contributions within the bounded scope of this work?

@@ -1,18 +1,18 @@
 # HANDOFF / CONTEXT PACK
 
-Dùng khi chuyển sang conversation/model khác.
+Use this prompt when transitioning state across model sessions or conversations.
 
-Tóm tắt:
-- Project:
-- Objective:
-- Current section:
-- Accepted facts:
-- Measured results:
-- Sources:
-- Open questions:
-- Assumptions:
-- Terminology:
-- Style constraints:
-- Known reviewer concerns:
+Provide a structured summary:
+- **Project**:
+- **Objective**:
+- **Current section / chapter**:
+- **Established facts**:
+- **Empirical measurements**:
+- **Primary sources**:
+- **Open questions / blockers**:
+- **Working assumptions**:
+- **Key terminology**:
+- **Stylistic & formatting constraints**:
+- **Known reviewer concerns**:
 
-Không tóm tắt mất các điều kiện hoặc limitation.
+Rule: Never drop boundary conditions, hardware/software versions, or limitations during summarization.

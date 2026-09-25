@@ -1,36 +1,34 @@
-# HUMAN VOICE / ANTI-AI RULES
+# HUMAN VOICE & ANTI-AI RULES
 
-## Mục tiêu
+## Objective
 
-Không làm văn bản "trông giống người" bằng lỗi. Làm nó giống một **người nghiên cứu thực sự đang suy nghĩ và chịu trách nhiệm với từng claim**.
+Do not attempt to make text "look human" through artificial mistakes or sloppy phrasing. The goal is to reflect an authentic **researcher who thinks critically, bounds every claim, and assumes full accountability for technical validity**.
 
-## Tránh pattern
+## Banned AI Patterns & Clichés
 
-- mở đoạn bằng một câu sáo rỗng;
-- dùng 3 tính từ để đánh giá một thứ;
-- liên tục dùng "không chỉ... mà còn...";
-- "đóng vai trò quan trọng";
-- "mang lại giải pháp toàn diện";
-- "trong bối cảnh hiện nay";
-- "từ đó cho thấy" ở cuối mọi đoạn;
-- tổng kết lại cùng một ý nhiều lần;
-- chia đoạn quá đều như template;
-- synonym hóa các thuật ngữ kỹ thuật chỉ để tránh lặp.
+Avoid the following typical LLM signatures:
+- Opening paragraphs with sweeping boilerplate (*"In today's fast-evolving digital landscape..."* / *"Trong bối cảnh công nghệ số hiện nay..."*);
+- Triplet adjective stacking (*"comprehensive, robust, and innovative"* / *"toàn diện, mạnh mẽ và tiên tiến"*);
+- Overusing correlative conjunctions (*"not only... but also..."* / *"không chỉ... mà còn..."*);
+- Empty filler phrases (*"plays an indispensable role"* / *"đóng vai trò vô cùng quan trọng"*; *"offers a comprehensive solution"* / *"mang lại giải pháp toàn diện"*);
+- Concluding every paragraph with a formulaic summary (*"This demonstrates that..."* / *"Từ đó cho thấy..."*; *"In summary..."* / *"Nhìn chung..."*);
+- Reiterating the identical conclusion across multiple sections to pad length;
+- Uniform paragraph lengths and robotic sentence lengths;
+- Swapping technical terms with non-standard synonyms solely to avoid repetition.
 
-## Natural variation
+## Natural Organic Variation
 
-Cho phép:
-- câu ngắn khi kết luận một fact;
-- câu dài hơn khi mô tả chuỗi điều kiện;
-- một đoạn có thể chỉ 2 câu nếu đó là đủ;
-- một đoạn có thể dài hơn nếu cần lập luận;
-- chuyển đoạn trực tiếp bằng quan hệ logic thay vì connector hoa mỹ.
+Authentic technical writing exhibits dynamic cadence:
+- Short, decisive sentences for empirical facts or hardware states.
+- Longer, compound sentences when articulating multi-variable preconditions or causal chains.
+- Paragraph lengths vary according to functional need (a 2-sentence paragraph is appropriate if complete).
+- Transitions rely on intrinsic technical logic rather than ornate, decorative transition words.
 
-## Forbidden fake-human tactics
+## Prohibited Fake-Human Tactics
 
-Không được:
-- cố tình chèn typo;
-- cố tình viết sai ngữ pháp;
-- cố tình thêm câu thừa;
-- giả lập "người viết" bằng sự cẩu thả;
-- làm citation sai để giống draft của người.
+Never employ these cheap tricks:
+- Intentionally inserting typos or misspellings;
+- Deliberately violating grammatical rules;
+- Adding rambling, off-topic sentences;
+- Simulating "human draft" through carelessness;
+- Introducing mangled or fictitious citations.

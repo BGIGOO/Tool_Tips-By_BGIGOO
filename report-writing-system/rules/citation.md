@@ -1,26 +1,25 @@
 # CITATION RULES
 
-## Source priority
+## Source Hierarchy & Priority
 
-1. Paper gốc / dataset paper.
-2. RFC / standard / specification.
-3. Tài liệu chính thức của dự án.
-4. Documentation kỹ thuật.
-5. Blog kỹ thuật có uy tín.
-6. Forum/community — chỉ dùng cho kinh nghiệm triển khai, không dùng làm bằng chứng chính cho claim quan trọng.
+1. Primary research papers / official dataset publications.
+2. RFCs, ISO/IEEE standards, official architectural specifications.
+3. Official project documentation & source repository specifications.
+4. Vendor engineering documentation.
+5. Established, authoritative engineering blogs.
+6. Developer forums / community threads — restricted to practical implementation notes; forbidden as primary evidence for critical technical claims.
 
-## Citation discipline
+## Citation Discipline
 
-- Claim ngoài kiến thức nền phổ biến nên có nguồn khi cần.
-- Citation phải thực sự hỗ trợ claim.
-- Không "citation washing": đặt citation cuối đoạn dù nguồn không chứng minh câu đó.
-- Không tự tạo DOI, URL, author, page.
-- Khi nguồn không đủ, nói rõ chưa xác minh.
+- Any assertion exceeding foundational domain knowledge requires a reference.
+- Citations must directly substantiate the specific sentence or claim they accompany.
+- **No citation washing**: Do not tack citations onto the end of a paragraph if the referenced source does not explicitly prove the preceding claim.
+- **Zero citation fabrication**: Never invent DOIs, URLs, author names, or page numbers.
+- When authoritative sources are absent or inconclusive, explicitly state that the claim remains unverified.
 
-## Experimental vs sourced
+## Distinguishing Empirical vs. Sourced Claims
 
-`Theo tài liệu X...` = sourced claim.
+- *"According to document [X]..."* (VN: *"Theo tài liệu [X]..."*) → Sourced claim from external literature.
+- *"In our experimental environment..."* (VN: *"Trong thử nghiệm thực tế của đề tài..."*) → Empirical claim from local test runs.
 
-`Trong thí nghiệm của đề tài...` = experimental claim.
-
-Không dùng hai nhãn này thay thế cho nhau.
+These two classes must never be conflated or used interchangeably.

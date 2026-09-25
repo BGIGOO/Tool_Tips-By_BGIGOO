@@ -1,19 +1,15 @@
 # WORKFLOW 04 — DRAFTING
 
-Draft theo thứ tự:
-1. Claim.
-2. Evidence.
-3. Explanation.
-4. Scope/condition.
-5. Implication.
+Draft paragraphs following this functional progression:
+1. **Core Proposition / Claim**;
+2. **Empirical Evidence / Mechanism**;
+3. **Technical Explanation**;
+4. **Scope & Operating Boundary Conditions**;
+5. **Systemic Implication**.
 
-Không thêm fact mới trong lúc polish câu.
-
-Khi cần giả định:
-`[ASSUMPTION: ...]`
-
-Khi cần xác minh:
-`[CẦN KIỂM CHỨNG: ...]`
-
-Khi thiếu số liệu:
-`[TBD — chưa có dữ liệu đo]`
+Rules:
+- Generate text in the user's requested target language (Vietnamese, English, etc.).
+- Never introduce new factual claims while polishing sentence cadence.
+- For working assumptions: tag with `[ASSUMPTION: ...]`.
+- For unverified claims: tag with `[NEEDS_VERIFICATION: ...]` (or `[CẦN KIỂM CHỨNG: ...]` if drafting in Vietnamese).
+- For missing metrics: tag with `[TBD — empirical data missing under condition X]`.

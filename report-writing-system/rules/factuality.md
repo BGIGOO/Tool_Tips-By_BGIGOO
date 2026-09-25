@@ -1,28 +1,28 @@
 # FACTUALITY RULES
 
-## Claim ledger
+## Claim Provenance
 
-Mỗi claim quan trọng phải truy được về ít nhất một trong:
-- observation;
-- measurement;
-- source;
-- derivation.
+Every substantive claim must be traceable to at least one legitimate origin:
+- Direct observation (`OBSERVED`);
+- Empirical measurement (`MEASURED`);
+- Authoritative reference (`SOURCED`);
+- Logical deduction (`DERIVED`).
 
-## Red flags
+## Red Flags & Verification Triggers
 
-Đánh dấu `[CẦN KIỂM CHỨNG]` nếu:
-- con số không có nguồn;
-- phiên bản công nghệ không rõ;
-- hành vi sản phẩm phụ thuộc cấu hình nhưng câu đang viết như mặc định;
-- kết luận rộng hơn phạm vi thử nghiệm;
-- thuật ngữ có thể đang bị dùng sai;
-- nguồn được trích nhưng không thực sự hỗ trợ claim.
+Tag with `[NEEDS_VERIFICATION]` (or `[CẦN KIỂM CHỨNG]` if writing in Vietnamese) whenever:
+- A numerical metric lacks a source citation or experimental measurement.
+- Software/system version is omitted.
+- Configuration-dependent behavior is stated as universal default behavior.
+- The conclusion oversteps the boundaries of the test dataset.
+- Terminology appears misapplied or technically ambiguous.
+- An attached citation does not directly corroborate the claim.
 
-## Không được làm
+## Prohibited Actions
 
-- bịa citation;
-- bịa số liệu;
-- bịa kết quả;
-- biến ví dụ thành kết quả thật;
-- lấy claim của vendor thành kết quả thực nghiệm của đồ án;
-- dùng một benchmark khác môi trường để mô tả hệ thống của mình như thể cùng điều kiện.
+- Fabricating citations or DOIs;
+- Inventing numerical metrics or benchmark figures;
+- Fabricating experiment outcomes or system logs;
+- Converting illustrative examples into claimed empirical results;
+- Presenting vendor marketing statements as independent research findings;
+- Transplanting third-party benchmarks into the project as if measured under local conditions.

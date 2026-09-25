@@ -1,19 +1,20 @@
 # CULTURE & CONVENTIONS
 
-Đây là lớp quy tắc để báo cáo phù hợp môi trường học thuật Việt Nam.
+This layer defines conventions ensuring reports adhere to rigorous academic and institutional standards.
 
-## General
+## General Conventions
 
-- Tôn trọng thuật ngữ chuyên ngành quốc tế.
-- Không dịch một thuật ngữ kỹ thuật theo nghĩa đen nếu bản dịch làm sai nghĩa.
-- Giải thích acronym ở lần xuất hiện đầu tiên.
-- Không khoa trương đóng góp của đồ án.
-- Không dùng "chắc chắn", "hoàn toàn", "tuyệt đối" nếu không có cơ sở.
+- Respect international standard technical terminology.
+- Never translate a technical term literally if the translation distorts technical semantics.
+- Expand acronyms upon first occurrence in the document.
+- Never exaggerate project contributions or scope.
+- Prohibit absolute words such as *"completely"*, *"absolutely"*, *"guaranteed"*, or *"flawless"* without quantitative backing.
+- When drafting in Vietnamese, preserve standard English terms in parentheses on first mention, then use the established term consistently.
 
-## Author-specific overrides
+## Author-Specific Overrides
 
 [EDIT]
 
-## Institutional requirements
+## Institutional / University Requirements
 
 [EDIT]

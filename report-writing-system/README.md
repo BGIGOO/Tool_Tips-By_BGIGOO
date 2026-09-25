@@ -1,44 +1,49 @@
 # Report Writing System
 
-Mục tiêu: biến AI thành một **trợ lý viết báo cáo/paper có quy trình**, không phải một prompt sửa câu.
+Goal: Transform AI into a **methodical research/technical report writing assistant**, rather than a superficial prompt for proofreading sentences.
 
-## Tư duy hệ thống
+## System Philosophy
 
-AI phải đi theo chuỗi:
+The AI must follow this rigorous pipeline:
 
-`Context → Discovery/Q&A → Evidence → Outline → Draft → Technical Review → Human-voice Review → Final QA`
+`Context → Discovery/Q&A → Evidence → Outline → Draft → Technical Review → Human-Voice Review → Final QA`
 
-Không được nhảy thẳng từ "hãy viết" sang bài hoàn chỉnh khi còn thiếu dữ liệu quan trọng.
+Never jump straight from a prompt to a final draft while critical data is missing.
 
-## Cấu trúc
+## Multilingual & Token Optimization
 
-- `SYSTEM_PROMPT.md`: prompt điều phối chính.
-- `context/`: hiểu tác giả, dự án, bối cảnh học thuật.
-- `rules/`: luật viết, kiểm chứng, trích dẫn, bảng/hình, chống văn AI.
-- `workflow/`: quy trình từng giai đoạn.
-- `templates/`: biểu mẫu dữ liệu đầu vào và sổ bằng chứng.
-- `prompts/`: prompt gọi nhanh cho từng tác vụ.
-- `examples/`: ví dụ để calibrate văn phong.
+- **Core prompts, workflows, and rules are in English** to maximize instruction precision and minimize token consumption for LLMs.
+- **User Interaction**: You can converse and give instructions in **Vietnamese** (or any preferred language).
+- **Document Output**: The AI produces reports in whatever target language you specify (Vietnamese, English, etc.) as designated in the prompt or document specifications.
 
-## Cách dùng
+## Architecture
 
-1. Điền `context/author_profile.md`.
-2. Điền `context/project_context.md`.
-3. Chọn chuẩn trích dẫn trong `context/document_spec.md`.
-4. Khi bắt đầu báo cáo, dùng `prompts/start_report.md`.
-5. AI phải chạy Question Gate trước khi viết.
-6. Ghi nguồn, số liệu và kết quả đo vào `templates/evidence_ledger.csv`.
-7. Sau khi có outline mới bắt đầu draft.
-8. Chạy `prompts/reviewer.md` trước bản cuối.
+- `SYSTEM_PROMPT.md`: Master orchestration prompt.
+- `context/`: Author profile, project background, and document specifications.
+- `rules/`: Rules for technical style, factuality, citations, tables/figures, and anti-AI-filler patterns.
+- `workflow/`: Step-by-step phased workflow.
+- `templates/`: Input schemas, experiment logs, and evidence ledgers.
+- `prompts/`: Quick-trigger prompts for distinct tasks.
+- `examples/`: Tone calibration examples (Good vs. Bad).
 
-## Nguyên tắc quan trọng
+## Usage Workflow
 
-"Human-like" không có nghĩa là cố tình viết sai, viết vụng hoặc tạo lỗi chính tả. Văn phong tự nhiên phải đến từ:
-- tiếng nói tác giả ổn định;
-- lập luận có mục đích;
-- câu dài/ngắn thay đổi theo nội dung;
-- thuật ngữ được dùng nhất quán;
-- mức độ chắc chắn phù hợp với bằng chứng;
-- có giới hạn và điều kiện áp dụng;
-- không cố "làm màu" bằng từ ngữ học thuật.
+1. Fill out `context/author_profile.md`.
+2. Fill out `context/project_context.md`.
+3. Configure citation style and target language in `context/document_spec.md`.
+4. Initiate a report session using `prompts/start_report.md`.
+5. The AI runs the **Question Gate** to evaluate context sufficiency before drafting.
+6. Record sources, raw metrics, and measurements in `templates/evidence_ledger.csv`.
+7. Finalize the section outline before drafting content.
+8. Run `prompts/reviewer.md` before final approval.
 
+## Core Principles
+
+"Human-like" does not mean deliberately making typos, awkward phrasing, or grammar mistakes. Natural authenticity stems from:
+- Consistent authorial voice.
+- Purposeful argumentation.
+- Dynamic sentence cadence tailored to technical depth.
+- Strict consistency in technical terminology.
+- Epistemic calibration: claims precisely match the strength of evidence.
+- Explicitly stated boundaries, assumptions, and scope limitations.
+- Avoidance of academic fluff and marketing buzzwords.

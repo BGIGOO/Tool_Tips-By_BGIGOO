@@ -1,23 +1,21 @@
-# TABLES / FIGURES
+# TABLES & FIGURES RULES
 
 ## Tables
 
-Mỗi cột phải có ý nghĩa rõ.
-Không dùng bảng để tạo "ranking" nếu nghiên cứu không định nghĩa metric.
-
-Ưu tiên:
-`Tiêu chí | Giá trị | Điều kiện | Nguồn/Ghi chú`
+- Every column must possess an explicit technical meaning and defined unit of measurement.
+- Never construct qualitative "ranking" tables with subjective scores unless grounded in rigorously defined criteria.
+- Recommended schema:
+  `Criterion | Value / Metric | Test Conditions | Source / Notes`
 
 ## Figures
 
-Mỗi hình phải có:
-- số hình;
-- tiêu đề/chú thích;
-- nguồn nếu cần;
-- phần mô tả trong text: hình này dùng để chứng minh/giải thích điều gì.
-
-Không mô tả những gì hình không thể hiện.
+Every figure must include:
+- Unique figure number (e.g., Figure 1 / Hình 1);
+- Informative caption describing the content;
+- Explicit source attribution (if not original work);
+- In-text discussion detailing what the visual evidence demonstrates.
+- Never extrapolate findings beyond what the figure objectively portrays.
 
 ## Screenshots
 
-Screenshot là evidence về trạng thái hệ thống tại thời điểm chụp, không tự động là proof cho mọi kết luận.
+Screenshots serve as evidence of system state at an exact point in time; they do not automatically prove persistent behavior or generalized system properties.

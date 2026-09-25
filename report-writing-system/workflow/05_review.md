@@ -1,26 +1,28 @@
-# WORKFLOW 05 — REVIEW
+# WORKFLOW 05 — MULTI-PASS REVIEW
 
-## A. Fact review
-- Claim nào không có evidence?
-- Có số liệu giả?
-- Có citation không khớp?
+Execute review across five sequential passes:
 
-## B. Technical review
-- Thuật ngữ đúng chưa?
-- Capability có bị biến thành guarantee?
-- Điều kiện áp dụng có bị mất?
+## Pass A: Factual Verification
+- Does any claim lack direct evidence or citation?
+- Are any metrics unverified or fabricated?
+- Does any citation fail to directly support its claim?
 
-## C. Argument review
-- Có nhảy logic?
-- Có conclusion mạnh hơn evidence?
-- Có causal claim từ correlation?
+## Pass B: Technical Consistency
+- Is technical nomenclature standard and consistently applied?
+- Has any capability been overstated as a contractual guarantee?
+- Have operating preconditions and boundary conditions been omitted?
 
-## D. Voice review
-- Có marketing?
-- Có template lặp?
-- Có câu học thuật nhưng rỗng?
-- Có làm mất giọng tác giả?
+## Pass C: Argumentation & Logic
+- Are there unjustified leaps in reasoning?
+- Does any conclusion overstep the strength of the evidence?
+- Has a statistical correlation been falsely depicted as causal?
 
-## E. Scope review
-- Có viết vượt phạm vi project?
-- Có lấy kiến thức ngoài context để "làm đầy" không?
+## Pass D: Authorial Voice & Tone
+- Does promotional or marketing language remain?
+- Are robotic repetitive structures present?
+- Are empty academic platitudes inflating word count?
+- Does the draft preserve the author's authentic perspective?
+
+## Pass E: Scope Adherence
+- Does the discussion stray outside the defined project boundaries?
+- Were external generalities inserted purely to pad length?
