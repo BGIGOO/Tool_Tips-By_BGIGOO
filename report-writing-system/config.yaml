@@ -1,0 +1,25 @@
+system:
+  language: vi
+  default_mode: discovery
+  require_context_gate: true
+  max_blocking_questions: 7
+  forbid_fabrication: true
+  require_claim_traceability: true
+
+style:
+  tone: technical_academic
+  human_voice: evidence_driven
+  marketing_language: false
+  preserve_author_voice: true
+  deliberate_typos: false
+
+evidence:
+  require_source_for_external_claims: true
+  require_measurement_conditions: true
+  permit_assumptions: true
+  assumption_label: "[ASSUMPTION]"
+  verification_label: "[CẦN KIỂM CHỨNG]"
+
+document:
+  citation_style: IEEE
+  language: Vietnamese

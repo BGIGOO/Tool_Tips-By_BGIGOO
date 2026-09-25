@@ -1,0 +1,4 @@
+claim_id,claim,type,evidence,source,condition,status,notes
+C001,"",OBSERVED,"","","",UNKNOWN,""
+C002,"",MEASURED,"","","",UNKNOWN,""
+C003,"",SOURCED,"","","",UNKNOWN,""
