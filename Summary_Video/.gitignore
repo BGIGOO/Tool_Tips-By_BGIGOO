@@ -1,0 +1,25 @@
+# Environment Variables
+.env
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Audio Temp Files
+temp_audio/
+*.m4a
+*.mp3
+*.wav
+*.part
+*.ytdl
+
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# Outputs (optional: if you want to keep personal outputs out of git)
+# outputs/*.md
